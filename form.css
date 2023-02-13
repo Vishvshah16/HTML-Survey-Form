@@ -7,11 +7,14 @@
     position: relative;
     opacity: 0.75;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .card
 {
     max-height: 100%;  
     max-width: 100%;
+    margin-bottom: 20px;
 }
 .title
 {
@@ -38,7 +41,7 @@
 {
     font-weight: bold;
     font-size: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .field-textbox
 {
@@ -63,6 +66,7 @@
     width: 40px;
     font-weight: bold;
     position:relative;
+    
 }
 
 .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover
